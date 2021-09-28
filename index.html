@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarusway Survey Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+    <h1>Clarusway Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p><br>
+    
+    <form action="xxx">
+    <label for="name"> Name</label><br><br>
+    <input type="text" id="name" placeholder="Enter your name"><br>
+    <label for="surname">Surname</label><br><br>
+    <input type="text" id="surname" placeholder="Enter your surname"><br>
+    <label for="emali">Email</label><br><br>
+    <input type="email" name="email" id="email" placeholder="user@clarusway.com">
+    <h3>Which option best describes your current role?</h3>
+
+    <select name="role" id="role"  >
+        <option value="" disabled selected > Select current role</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="fulltime">Full Time Job</option> 
+        <option value="parttime">Part Time Job</option>
+        <option value="learner">Full Time Learner</option>
+        <option value="nottosay">Prefer not to say</option> 
+    </select>
+
+    <h3>Would you recommend Clarusway to a friend?</h3>
+    <input type="radio" name="definetly" id="definetly" checked>
+    <label for="definetly">Definetly,Yes</label><br>
+    <input type="radio" name="maybe" id="maybe">
+    <label for="maybe">Maybe</label><br>
+    <input type="radio" name="not sure" id="not sure">
+    <label for="nor sure">Not sure</label><br>
+    <input type="radio" name="definetlyn" id="definetlyn">
+    <label for="definetlyn">Definetly,No</label><br><br>
+
+    <h3>What is your favorite feature of Clarusway?</h3>
+    <select name="feature" id="feature">
+        <option value="" disabled selected > Select an option</option>
+        <option value="courses">Courses</option>
+        <option value="project">Project</option>
+        <option value="community">Community</option>
+        <option value="mentors">Mentors</option>
+    </select>
+
+    <h3>What would you like to see improved? (Check all that apply)</h3>
+    <input type="checkbox" name="frontend" id="frontend">
+    <label for="frontend">Front-end Project</label><br>
+    <input type="checkbox" name="backend" id="backend">
+    <label for="backend">Back-end Project</label><br>
+    <input type="checkbox" name="data" id="data">
+    <label for="data">Data Science</label><br>
+    <input type="checkbox" name="add" id="add">
+    <label for="add">Additional Courses</label><br>
+
+    <h3>Any comments or suggestions</h3>
+    <textarea name="comment" id="" cols="20" rows="3" placeholder=" Enter your comment here...Thanxs for your comment"></textarea>
+    <input id="submit" type="submit" value="Submit">
+    </form>
+    
+</section>
+
+</body>
+</html>
