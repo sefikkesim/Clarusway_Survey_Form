@@ -17,14 +17,14 @@
     
     <form action="xxx">
     <label for="name"> Name</label><br><br>
-    <input type="text" id="name" placeholder="Enter your name"><br>
+    <input type="text" id="name" placeholder="Enter your name" required><br>
     <label for="surname">Surname</label><br><br>
-    <input type="text" id="surname" placeholder="Enter your surname"><br>
+    <input type="text" id="surname" placeholder="Enter your surname" required><br>
     <label for="emali">Email</label><br><br>
     <input type="email" name="email" id="email" placeholder="user@clarusway.com">
     <h3>Which option best describes your current role?</h3>
 
-    <select name="role" id="role"  >
+    <select name="role" id="role" required >
         <option value="" disabled selected > Select current role</option>
         <option value="student">Student</option>
         <option value="teacher">Teacher</option>
@@ -45,7 +45,7 @@
     <label for="definetlyn">Definetly,No</label><br><br>
 
     <h3>What is your favorite feature of Clarusway?</h3>
-    <select name="feature" id="feature">
+    <select name="feature" id="feature" required >
         <option value="" disabled selected > Select an option</option>
         <option value="courses">Courses</option>
         <option value="project">Project</option>
@@ -54,7 +54,7 @@
     </select>
 
     <h3>What would you like to see improved? (Check all that apply)</h3>
-    <input type="checkbox" name="frontend" id="frontend">
+    <input type="checkbox" name="frontend" id="frontend" required>
     <label for="frontend">Front-end Project</label><br>
     <input type="checkbox" name="backend" id="backend">
     <label for="backend">Back-end Project</label><br>
